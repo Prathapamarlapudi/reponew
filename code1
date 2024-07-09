@@ -1,0 +1,7 @@
+#!/bin/bash
+ec2-user
+sudo -i
+sudo yum install httpd -y
+cd /var/www/html
+echo "hiii this is prathap" > index.html
+service httpd restart 
